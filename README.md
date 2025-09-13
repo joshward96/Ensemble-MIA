@@ -1,6 +1,6 @@
-# Ensemble MIA Evaluation
+# Ensembling Membership Inference Attacks Against Tabular Generative Models
 
-A framework for evaluating membership inference attacks against synthetic data generation methods using ensemble approaches.
+The codebase for Ensembling Membership Inference Attacks Against Tabular Generative Models (https://arxiv.org/abs/2509.05350).
 
 ## Installation
 
@@ -29,7 +29,7 @@ The evaluation follows a simple 3-step workflow:
 ```bash
 python generate_data_synthcity.py
 ```
-Generates synthetic data using traditional methods: DDPM, ARF, TVAE, CTGAN, NFlow, ADSGAN, PATEGAN
+Generates synthetic data using traditional methods: DDPM, ARF, TVAE, CTGAN, NFlow, ADSGAN, PATEGAN. (Note that this will take a very long time to generate data for the full experiment.)
 
 ### 2. Generate Latent Diffusion Data
 ```bash
