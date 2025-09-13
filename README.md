@@ -6,7 +6,7 @@ A framework for evaluating membership inference attacks against synthetic data g
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/joshward96/Ensemble-MIA.git
 cd ensemble
 ```
 
