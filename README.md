@@ -47,14 +47,13 @@ Evaluates membership inference attacks using ensemble methods on all generated d
 
 - **Data Generation**: Creates synthetic versions of tabular datasets using 9 different methods
 - **MIA Attacks**: Tests 11 different membership inference attacks (DCR, Gen-LRA, Classifier, etc.)
-- **Ensemble Evaluation**: Combines attack results using statistical aggregation and majority voting
-- **Privacy Analysis**: Provides comprehensive privacy metrics with confidence intervals
+- **Ensemble Evaluation**: Combines attack results using aggregation and majority voting
 
 ## Output
 
 Results are saved to `results/mia_results.csv` containing AUC-ROC, TPR@FPR metrics, and privacy scores for each dataset/method/attack combination.
 
-## Directory Structure
+## Synthetic Data Directory Structure
 
 ```
 ensemble_data/
